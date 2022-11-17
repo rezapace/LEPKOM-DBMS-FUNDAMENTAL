@@ -1,0 +1,79 @@
+ACTIVITY 1
+(Konsep Dasar Database Relasional)
+1. Jawablah pertanyaan-pertanyaan di bawah ini!
+• Sebutkan kelebihan dan kelemahan basis data! (10 point)
+Kelebihan
+Terpusat dan Berbagi Data -- User memasukkan dan menyimpan semua data di dalam satu komputer atau
+lebih. Tindakan itu mengurangi penggunaan kertas,
+Current Data -- Pengguna bisa secara cepat memperbaharui data dan data yang tersedia siap untuk digunakan.
+Kecepatan dan Produktivitas -- Pengguna bisa mencari, mengurutkan, me-retrieve, membuat perubahan, dan
+mencetak data secara mudah serta efisien, seperti halnya perhitungan menjumlahkan semua data dapat dilakukan
+secara cepat daripada jika harus melakukannya secara manual.
+Akurasi dan Konsistensi -- Pengguna bisa merancang basis data untuk memvalidasi masukan data, serta untuk
+memastikan bahwa data yang dimasukkan adalah valid dan konsisten. Data yang ada berlaku sama terhadap
+pengguna lainnya.
+Analisis -- Sistem basis data bisa menyimpan, menjejaki, dan memproses isi data yang besar dari sumber yang
+berbeda. Sebagai contoh, Pengguna bisa menggunakan kumpulan data dari sumber yang bervariasi untuk
+menjejaki performa dari area bisnis untuk menganalisa atau untuk mengungkapkan trend bisnis.
+Keamanan -- Admin bisa memproteksi basis data dengan penetapan daftar kata sandi (password) dan identitas
+pengguna yang diotorisasi. Keamanan memastikan bahwa pengguna hanya bisa melakukan operasi yang diizinkan
+saja.
+Pemulihan (recovery) -- Kegagalan sistem tidak bisa diabaikan. Penggunaan basis data memungkinkan integritas
+data mengalami kegagalan. Sistem manajemen basis data menggunakan suatu log transaksi untuk memastikan
+bahwa data akan menjadi baik (pulih) saat admin menjalankannya kembali setelah terjadi crash.
+Transaksi -- Konsep transaksi menyediakan suatu sistem mekanisme pemulihan kesalahan yang disamaratakan
+untuk memberikan konsekuensi atas kesalahan yang tidak terduga.
+Ke kurangan
+Biaya yang tidak murah alias biayanya sangat mahal karena menyangkut biaya-biaya untuk pembelian
+sekaligus perawatan hardware and software. Selain itu menyusul biaya tambahan untuk untuk storage
+(penyimpanan), network (jaringan) dan lain-lain.
+Rumit. Perancang, pengembang, DBA, basis data administrator, dan pengguna akhir harus memahami secara
+detail dan mendalam tentang fungsi basis data yang ditangani agar dapat mengambil manfaat dari basis data.
+Kegagalan dalam memainkannya dapat menyebabkan kerugian yang cukup besar bagi organisasi atau
+perusahaan.
+Tambahan biaya konversi, Diperlukan biaya yang besar untuk berpindah dari aplikasi/sistem yang lama ke
+dalam sistem dan hardware basis data yang baru (Upgrade). Ditambah lagi, diperlukan pula biaya untuk
+pelatihan staff untuk menggunakan sistem yang baru ini serta tambahan biaya untuk mempekerjakan staff
+khusus seperti DBA, dan lain-lain.
+Membutuhkan Listrik yang cukup besar
+Membutuhkan tenaga ahli (programmer)
+Biaya (Cost) lebih besar untuk pembuatan, perawatan, dan pengelolaan sistem.
+Kompleks dalam pembuatan sistem basis data : kerumitan tingkat tinggi dalam
+pembuatan program sistem basis data.
+Backup yang cukup banyak memakan waktu, dan Prosedur Backup yang sulit.
+Pemulihan (Recovery) sulit.
+Jika terjadi kerusakan atau serangan pada sistem basis data, maka akan
+mempengaruhi kinerja dari sebuah instansi atau perusahaan.
+• Sebutkan dan jelaskan properti dari suatu Relasi (10 point)
+Relasi adalah memenuhi properti-properti berikut:
+1. Nama relasi harus berbeda dengan relasi-relasi lain di satu basisdata.
+2. Setiap masukan ke relasi adalah masukan bernilai tunggal.
+3. Setiap kolom mempunyai nama kolom yang berbeda yang unik.
+4. Semua nilai dalam kolom diidentifikasikan dengan nama atribut.
+5. Urutan data dalam kolom tidak penting.
+6. Setiap baris merupakan item yang berbeda dan unik.
+7. Urutan baris tidak penting.
+Kebanyakan properti relasi model relasional berasal dari properti-properti relasi yang diturunkan dari matematika, yaitu:
+1. Karena relasi adalah himpunan maka urutan elemen tidak dipedulikan. Relasi tidak mementingkan urutan tupel
+2. Pada satu himpunan, tidak ada elemen yang berulang. Serupa itu, tidak ada tupel-tupel duplikat di satu relasi.
+3. Cartesian product dari himpunan-himpunan dengan elemen-elemen bernilai tunggal sederhana, masing-masing
+elemen di masing-masing tupel juga bernilai tunggal. Serupa itu, masing-masing sel satu relasi berisi tepat satu
+nilai. Relasi pada matematika tidak perlu dinormalkan. Codd memilih tidak mengijinkan kelompok-kelompok
+berulang untuk menyederhanakan model data relasional.
+4. Pada satu relasi, nilai-nilai yang dimungkinkan untuk suatu posisi ditentukan himpunan atau domain pada posisi
+itu. Pada satu tabel, nilai masing-masing kolom harus dari domain atribut itu.
+• Sebutkan karakteristik utama dari SQL! (10 point)
+1. Self-describing: Basis data tidak hanya berisi data saja, tetapi lengkap dengan definisi dari data itu sendiri.
+2. Isolation: Program pengaksesan DBMS ditulis secara terpisah dengan file-file yang bersifat spesifik seperti
+abstraksi data.
+3. Multi-view: Memungkinkan user yang berbeda untuk mendapatkan perspektif (view) basis data yang berbeda.
+4. Sharing data dan pemrosesan transaksi multi-user: Memungkinkan sejumlah user mengakses data secara
+bersamaan.
+• Sebutkan komponen - komponen SQL! (10 point)
+1. Data Definition Language (DDL)
+2. Data Manipulation Language (DML)
+3. Data Control Language (DCL)
+2. Sebutkan Atribut, Record, Primary Key dan Foreign Key dari
+Relasi/Tabel berikut! (60
+point)
+• Tabel Induk
